@@ -1,0 +1,25 @@
+{
+	"name": "find-test-file",
+	"author": "Daniel Immke",
+	"description": "Searches your workspace to find the corresponding test file",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"activationEvents": [
+		"onCommand:extension.findTest"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.findTest",
+				"title": "Find Test: Look for corresponding test file"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.32.0"
+	}
+}
