@@ -3,7 +3,7 @@
 	"displayName": "Find Test File",
 	"author": "Daniel Immke",
 	"description": "Searches your workspace to find the corresponding test file",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/danielimmke/vscode-find-test"

@@ -10,7 +10,7 @@ async function findTest() {
 		let fileName = document.fileName.split(divider).pop();
 		const ext = fileName.match(/\.([0-9a-z]+)(?:[\?#]|$)/i)[0];
 
-		fileName = fileName.slice(0, ext.length + 1);
+		fileName = fileName.replace(ext, '');
 
 		// Find file with same name in workspace but .test before the extension
 		const search = await vscode.workspace.findFiles(`**/**/${fileName}.test${ext}`, 1);
