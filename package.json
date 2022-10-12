@@ -3,6 +3,10 @@
 	"author": "Daniel Immke",
 	"description": "Searches your workspace to find the corresponding test file",
 	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/danielimmke/vscode-find-test"
+	},
 	"engines": {
 		"vscode": "^1.32.0"
 	},
