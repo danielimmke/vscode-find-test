@@ -1,5 +1,6 @@
 {
-	"name": "simple-find-test-file",
+	"name": "simple-find-test",
+	"displayName": "Find Test File",
 	"author": "Daniel Immke",
 	"description": "Searches your workspace to find the corresponding test file",
 	"version": "1.0.0",
